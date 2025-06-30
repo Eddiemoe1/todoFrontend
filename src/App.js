@@ -7,7 +7,7 @@ import {
   Navigate,
 } from "react-router-dom";
 import Login from "./Login";
-import Signup from "./SignUp";
+import Signup from "./Signup";
 
 export default function App() {
   const [token, setToken] = useState(localStorage.getItem("token"));
